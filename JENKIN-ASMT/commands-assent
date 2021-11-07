@@ -1,0 +1,100 @@
+   1  sudo git init
+    2  git colone https://github.com/saipranathi93/website.git
+    3  git clone https://github.com/saipranathi93/website.git
+    4  ls
+    5  pwd
+    6  cd website/
+    7  ls
+    8  sudo mv images/ ./home/ubuntu/test/
+    9  sudo mv .images/ ./home/ubuntu/test/
+   10  sudo mv ./images/ ./home/ubuntu/test/
+   11  sudo mv ./images/ /home/ubuntu/test/
+   12  sudo mv ./index.html /home/ubuntu/test/
+   13  cd ..
+   14  sudo rm -rf website/
+   15  ls
+   16  cd ..
+   17  cd test/
+   18  sudo git init
+   19  sudo git remote add origin https://github.com/saipranathi93/jass.git
+   20  git log
+   21  ls
+   22  git stauts
+   23  git status
+   24  sudo git add .
+   25  ls
+   26  sudo git status
+   27  sudo git commit -m 
+   28  sudo git commit -m "fristcommit"
+   29  sudo git branch
+   30  sudo branch dev1 dev2 develop
+   31  sudo branch dev1 
+   32  sudo git branch dev1
+   33  sudo git branch dev2
+   34  sudo git branch develop
+   35  sudo git branch
+   36  sudo git checkout dev1
+   37  ls
+   38  sudo git add.
+   39  sudo git add .
+   40  sudo git commit -m "dev1"
+   41  git branch
+   42  ls
+   43  git checkout develop 
+   44  sudo git checkout develop
+   45  ls
+   46  sudo git push origin master develop
+   47  ls
+   48  sudo git merge dev1
+   49  ls
+   50  sudo nano dockerfile
+   51  sudo docker build . -t develop
+   52  sudo docker images
+   53  sudo docker run -it -p 82:80 -d develop
+   54  sudo docker ps
+   55  sudo docker exec 663361e47425 bash
+   56  sudo docker exec -it 663361e47425 bash
+   57  ls
+   58  history
+   59  sudo git branch
+   60  sudo git status
+   61  sudo git add .
+   62  sudo git commit -m "dockerfile"
+   63  sudo git checkout master 
+   64  ls
+   65  sudo git merge develop
+   66  ls
+   67  sudo git push origin master 
+   68  cd
+   69  cd jenkins/workspace/build-master/
+   70  ls
+   71  pwd
+   72  cd
+   73  cd test/
+   74  ls
+   75  sudo nano master.html
+   76  ls
+   77  sudo git add .
+   78  sudo git commit -m "master test"
+   79  sudo git push origin master
+   80  sudo git push origin origin develop
+   81  sudo git push origin develop
+   82  sudo docker images
+   83  git branch
+   84  ls
+   85  sudo nano master.html 
+   86  sudo git add .
+   87  sudo git commit -m "patc add"
+   88  sudo git push origin master 
+   89  sudo docker ps
+   90  ls
+   91  sudo nano master.html 
+   92  sudo git add .
+   93  sudo dit commit -m "2 pact master add"
+   94  sudo git commit -m "2 pact master add"
+   95  sudo git push origin master
+   96  sudo nano master.html 
+   97  sudo git add .
+   98  sudo git commit -m "pact3 for master"
+   99  sudo git push origin master
+  100  history
