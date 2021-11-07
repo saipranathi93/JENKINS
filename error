@@ -1,0 +1,11 @@
+SSHLauncher{host='172.31.80.140', port=22, credentialsId='ubuntu', jvmOptions='', javaPath='', prefixStartSlaveCmd='', suffixStartSlaveCmd='', launchTimeoutSeconds=60, maxNumRetries=10, retryWaitTime=15, sshHostKeyVerificationStrategy=hudson.plugins.sshslaves.verifiers.NonVerifyingKeyVerificationStrategy, tcpNoDelay=true, trackCredentials=true}
+[11/07/21 03:00:15] [SSH] Opening SSH connection to 172.31.80.140:22.
+[11/07/21 03:00:15] [SSH] WARNING: SSH Host Keys are not being verified. Man-in-the-middle attacks may be possible against this connection.
+ERROR: Server rejected the 1 private key(s) for ubuntu (credentialId:ubuntu/method:publickey)
+[11/07/21 03:00:15] [SSH] Authentication failed.
+Authentication failed.
+[11/07/21 03:00:15] Launch failed - cleaning up connection
+[11/07/21 03:00:15] [SSH] Connection closed.
+/var/lib/jenkins/.ssh/known_hosts [SSH] No Known Hosts file was found at /var/lib/jenkins/.ssh/known_hosts. Please ensure one is created at this path and that Jenkins can read it.
+Key exchange was not finished, connection is closed.
+SSH Connection failed with IOException: "Key exchange was not finished, connection is closed.", retrying in 15 seconds. There are 6 more retries left
